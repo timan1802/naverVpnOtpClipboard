@@ -1,0 +1,4 @@
+POP3_SERVER=pop.example.com
+POP3_PORT=995
+USERNAME=your_email@example.com
+PASSWORD=your_password
