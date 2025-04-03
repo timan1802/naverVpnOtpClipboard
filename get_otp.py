@@ -50,6 +50,7 @@ def extract_otp_from_html(html_content):
         return otp_code
     return None
 
+mailbox = None
 try:
     print("📩 POP3 서버에 연결 중...")
     mailbox = poplib.POP3_SSL(POP3_SERVER, POP3_PORT)
@@ -136,5 +137,6 @@ except Exception as e:
     print(f"❌ 오류 발생: {e}")
 
 finally:
-    mailbox.quit()
-    print("📤 연결 종료")
+    if mailbox is not None:
+        mailbox.close()
+        print("📤 연결 종료")
