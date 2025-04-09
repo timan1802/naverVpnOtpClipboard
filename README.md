@@ -1,7 +1,7 @@
 # 📩 POP3 이메일에서 OTP 코드 추출 (EXE 실행 파일)
 
 이 프로젝트는 POP3 이메일 서버에서 최근 OTP 메일을 검색하고,
-NAVER Cloude SSL VPN 6자리 OTP 코드를 추출하여 클립보드에 복사하는 Python 스크립트입니다. 
+[NAVER Cloude SSL VPN](https://guide-gov.ncloud-docs.com/docs/sslvpn-download) 6자리 OTP 코드를 추출하여 클립보드에 복사하는 Python 스크립트입니다. 
 Windows에서 실행 가능한 **EXE 파일**로 변환하여 쉽게 사용할 수 있습니다.
 
 
