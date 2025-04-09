@@ -19,8 +19,6 @@ USERNAME=your_email@naver.com
 PASSWORD=your_password
 ```
 
-**⚠️ 주의:** 비밀번호를 직접 입력하는 것은 보안상 위험할 수 있으므로, 안전한 방법을 고려하세요.
-
 ---
 
 ## 🔹 2. EXE 파일 생성 방법
