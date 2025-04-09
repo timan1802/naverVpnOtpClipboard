@@ -25,6 +25,7 @@ PASSWORD=your_password
 ## 🔹 2. EXE 파일 생성 방법
 
 ### ✅ 사전 준비 (Python & 라이브러리 설치)
+Python 3.8
 
 EXE 파일을 만들려면 Python과 필요한 패키지를 설치해야 합니다.
 
